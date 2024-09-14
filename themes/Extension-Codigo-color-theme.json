@@ -1,0 +1,42 @@
+{
+	"name": "Extension-Codigo",
+	"type": "dark",
+  "colors": {
+    "editor.background": "#0e0e0e",  // Fondo oscuro para simular una placa de circuito
+    "editor.foreground": "#d4d4d4",
+    "editorCursor.foreground": "#00ff00",  // Verde neón para el cursor
+    "editor.lineHighlightBackground": "#1f1f1f",
+    "editor.selectionBackground": "#005f5f",
+    "activityBar.background": "#0c0c0c",
+    "sideBar.background": "#131313",
+    "titleBar.activeBackground": "#3a3a3a",  // Fondo oscuro con tono metálico
+    "statusBar.background": "#ff8800",  // Cobre para la barra de estado
+    "statusBar.foreground": "#ffffff"
+  },
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#ff8800"  // Cobre para los comentarios
+      }
+    },
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#00ff00"  // Verde neón para las palabras clave
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#ffd700"  // Acentos metálicos dorados para variables
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#c0c0c0"  // Acentos plateados para cadenas de texto
+      }
+    }
+  ]
+}
